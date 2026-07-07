@@ -1,0 +1,12 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c",
+        "helpers.h": "c",
+        "compare": "c",
+        "dictionary.h": "c",
+        "stdbool.h": "c"
+    },
+    "debugpy.debugJustMyCode": false
+}

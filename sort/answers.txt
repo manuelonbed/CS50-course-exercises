@@ -1,0 +1,27 @@
+sort1 uses: Bubble Sort
+
+real    0m0.483s sorted50000
+real    0m6.710s random50000
+
+How do you know?: sorting sorted5000 give vastly lower running time than random5000, this tell us that the best case scenario (when numbers are already sorted) is lower, just like in bubble sort.
+
+sort2 uses: Merge sort
+
+real    0m0.043s  reversed10000
+
+real    0m0.491s random50000
+
+real    0m0.496s sorted50000
+
+
+How do you know?: the fastest of the three with random50000
+
+sort3 uses: Selection Sort
+
+real    0m0.158s reversed10000
+real    0m0.126s sorted10000
+real    0m0.142s random10000
+real    0m3.095s random50000
+real    0m2.900s sorted50000
+
+How do you know?: sorting random5000 and sorted5000 give similar running times, this tell us that the best and worst case are the same, just like in selection sort.
